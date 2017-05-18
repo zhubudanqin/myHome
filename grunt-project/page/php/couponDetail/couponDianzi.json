@@ -1,0 +1,15 @@
+{
+    "success":true,
+    "msg":"",
+    "errorCode":0,
+    "data":[
+        {
+            "pmt_type_code":"4",
+            "pmt_type_name":"打折券",
+            "coupon_id":"",
+            "Barcode_img_url":"",
+            "pmt_url":"http://pic55.nipic.com/file/20141208/19462408_171130083000_2.jpg",
+            "valid_time":"2017-07-31"
+        }
+    ]
+}

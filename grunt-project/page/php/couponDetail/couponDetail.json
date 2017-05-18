@@ -1,0 +1,19 @@
+{
+    "success":true,
+    "msg":"",
+    "errorCode":0,
+    "data":{
+        "promotion_id":"1",
+        "pmt_main_title":"DFS旗下T广场（香港广东道店）",
+        "pmt_sub_title":"消费可享返现5%",
+        "end_date":"长期有效",
+        "pmt_content":"消费可享返现5%",
+        "pmt_rule":"消费前请出示特惠码，前往服务台领取DFS消费服务卡，即可享受返现。",
+        "pmt_description":"部分品牌不参与此活动。如客人因故未能在消费前出示DFS服务台给予的专属客人的消费服务卡，事后任何补单收据将不予计算在返券活动中。如预定境外旅行社提供的接待服务或有导游和领队同行，包括当天离团者，不参与返现活动。",
+        "pmt_check":"特惠码+订单ID",
+        "pmt_type_code":"1",
+        "pmt_type_name":"返现码",
+        "pmt_url":"",
+        "logo_url":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1485255761572&di=db22b7a82c13a63396ea2eb3fb8c2af9&imgtype=0&src=http%3A%2F%2Fimg01.taopic.com%2F141120%2F318749-14112011332694.jpg"
+    }
+}

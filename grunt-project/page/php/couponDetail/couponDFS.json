@@ -1,0 +1,31 @@
+{
+    "success":true,
+    "msg":"",
+    "errorCode":0,
+    "data":[
+        {
+            "pmt_type_code":"1",
+            "pmt_type_name":"返现码",
+            "coupon_id":"2496042",
+            "Barcode_img_url":"http://pic44.nipic.com/20140717/2531170_194615292000_2.jpg",
+            "pmt_url":"",
+            "valid_time":"长期有效"
+        },
+        {
+            "pmt_type_code":"1",
+            "pmt_type_name":"返现码",
+            "coupon_id":"2496053",
+            "Barcode_img_url":"http://pic44.nipic.com/20140717/2531170_194615292000_2.jpg",
+            "pmt_url":"",
+            "valid_time":"长期有效"
+        },
+        {
+            "pmt_type_code":"1",
+            "pmt_type_name":"返现码",
+            "coupon_id":"2496064",
+            "Barcode_img_url":"http://pic44.nipic.com/20140717/2531170_194615292000_2.jpg",
+            "pmt_url":"",
+            "valid_time":"长期有效"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+**/.tmp/*
+**/.tpm/*
+**/node_modules/*
+**/pkg/*
+.idea/*
+*iml
+**/sftpCache.json
+**/app/lib/*
+**/page/css/lib/**/*
+**/app/config/project.json
+**/wap/**/lib/*
+**/pc/**/lib/*
+**/sh.exe.stackdump
+**/.project
+.project
+**/.DS_Store

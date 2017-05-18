@@ -1,0 +1,110 @@
+{
+    "success": true,
+    "msg": "success",
+    "errorCode": 710000,
+    "data": {
+        "count": 10,
+        "list": [
+            {
+                "couponId": "0",
+                "status": "1",
+                "type": "1",
+                "coupoNum": "2",
+                "businessName": "DFS旗下T广场",
+                "couponName": "跳转至DFS领取详情页",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDFS.html"
+            },
+            {
+                "couponId": "0",
+                "status": "1",
+                "type": "2",
+                "coupoNum": "1",
+                "businessName": "DFS旗下T广场",
+                "couponName": "跳转至电子券领取详情页",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            },
+            {
+                "couponId": "0",
+                "status": "3",
+                "type": "3",
+                "coupoNum": "3",
+                "businessName": "DFS旗下T广场",
+                "couponName": "DFS5%返现特惠码",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            },
+            {
+                "couponId": "0",
+                "status": "1",
+                "type": "4",
+                "coupoNum": "4",
+                "businessName": "DFS旗下T广场",
+                "couponName": "DFS5%返现特惠码",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            },
+            {
+                "couponId": "0",
+                "status": "2",
+                "type": "5",
+                "coupoNum": "6",
+                "businessName": "DFS旗下T广场",
+                "couponName": "DFS5%返现特惠码",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            },
+            {
+                "couponId": "0",
+                "status": "1",
+                "type": "1",
+                "coupoNum": "1",
+                "businessName": "DFS旗下T广场",
+                "couponName": "DFS5%返现特惠码",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            },
+            {
+                "couponId": "0",
+                "status": "2",
+                "type": "2",
+                "coupoNum": "2",
+                "businessName": "DFS旗下T广场",
+                "couponName": "DFS5%返现特惠码",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            },
+            {
+                "couponId": "0",
+                "status": "3",
+                "type": "3",
+                "coupoNum": "2",
+                "businessName": "DFS旗下T广场",
+                "couponName": "DFS5%返现特惠码",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            },
+            {
+                "couponId": "0",
+                "status": "1",
+                "type": "4",
+                "coupoNum": "2",
+                "businessName": "DFS旗下T广场",
+                "couponName": "DFS5%返现特惠码",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            },
+            {
+                "couponId": "0",
+                "status": "2",
+                "type": "5",
+                "coupoNum": "2",
+                "businessName": "DFS旗下T广场",
+                "couponName": "DFS5%返现特惠码",
+                "couponDesc": "只要你在我们这消费，你就有5%返现",
+                "couponLink":"getCouponDetail.html"
+            }
+        ]
+    }
+}

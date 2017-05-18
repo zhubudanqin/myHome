@@ -1,0 +1,599 @@
+.mainView{
+    overflow-x: hidden;
+}
+.coupon-container {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    .pos {
+        width: 10px;
+        height: 10px;
+        display: block;
+        position: absolute;
+        top: 32%;
+        z-index: 200;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        background: #f0f0f0;
+    }
+    .left-round {
+        left: 5px;
+    }
+    .right-round {
+        right: 5px;
+    }
+    .logoWrapper {
+        width: 100%;
+        height: 70px;
+        padding: 10px 10px;
+        background: #fff;
+        position: relative;
+        border-radius: 3px 3px 0 0;
+        -webkit-border-radius: 3px 3px 0 0;
+        border-bottom: 1px solid #ededed;
+        .w {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+        }
+        .business-logo {
+            float: left;
+            overflow: hidden;
+            border: 1px solid #ededed;
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+            }
+        }
+        .tuniu-logo {
+            float: right;
+            background: url(../images/public/tuniu.png);
+            background-size: 100%;
+        }
+    }
+    .coupon-controll {
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        padding: 0 0 15px/20px*1rem ;
+        background: #fff;
+        position: relative;
+        border-radius: 0px 0px 3px 3px;
+        -webkit-border-radius: 0px 0px 3px 3px;
+        .topMod {
+            width: 100%;
+            height: 103px;
+            padding: 7px;
+            position: relative;
+            border-radius: 3px 3px 0 0;
+            -webkit-border-radius: 3px 3px 0 0;
+            border-bottom: 1px solid #e8e8e8;
+            .pos{
+                top:95%;
+            }
+            .left-round{
+                left:-5px;
+            }
+            .right-round{
+                right:-5px;
+            }
+            .con {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                position: relative;
+                .business-logo {
+                    width: 30%;
+                    height: 100%;
+                    float: left;
+                    position: relative;
+                    border-radius: 3px 3px 0 0;
+                    -webkit-border-radius: 3px 3px 0 0;
+                    img {
+                        width: 88px;
+                        height: 88px;
+                        display: block;
+                        border-radius: 3px 3px 0 0;
+                        -webkit-border-radius: 3px 3px 0 0;
+                        position: absolute;
+                        top:50%;
+                        left: 50%;
+                        transform:translate(-50%,-50%);
+                        -webkit-transform:translate(-50%,-50%);
+                    }
+                }
+                .coupon-pic {
+                    width: 70%;
+                    height: 100%;
+                    float: left;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+        }
+        .business-name {
+            font-size: 16px/20px*1rem;
+            color: #999;
+            margin-top: 15px/20px*1rem;
+            height:25px/20px*1rem;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .coupon-name {
+            font-size:22px/20px*1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-top:9px/20px*1rem;
+            color: #222;
+            margin:8px/20px*1rem 0;
+            padding:0 10px;
+        }
+        .coupon-order {
+            p {
+                display: none;
+            }
+            .order-number {
+                display: none;
+            }
+            .coupon-images {
+                width: 300px/20px*1rem;
+                height: 130px/20px*1rem;
+                margin: 0 auto 50px/20px*1rem;
+                display: block;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+            }
+            .coupon-bar-code {
+                margin-bottom: 20px;
+            }
+            .btn-coupon {
+                width: 400px/2/20px*1rem;
+                height: 35px;
+                font-size: 18px;
+                text-align: center;
+                color: #fff;
+                margin: 0 auto;
+                background: #ff8c09;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                line-height: 35px;
+                margin: 15px/20px*1rem auto 0;
+            }
+            .btn-useCoupon {
+                background: #d8d8d8;
+                display: none;
+            }
+        }
+        .coupon-time {
+            padding: 10px 10px/20px*1rem 0;
+            font-size: 28px/2/20px*1rem;
+            color: #999;
+        }
+    }
+    .dfs-controll {
+        width: 100%;
+        height: 450px/2/20px*1rem;
+        text-align: center;
+        overflow: hidden;
+        padding: 10/20px*1rem 0 0;
+        position: relative;
+        border-radius: 0px 0px 3px 3px;
+        -webkit-border-radius: 0px 0px 3px 3px;
+        background: url(../images/public/bg.png) no-repeat center;
+        background-size: 100%;
+        .business-logo {
+            width: 118px/2/20px*1rem;
+            height: 118px/2/20px*1rem;
+            margin: 13px/20px*1rem auto 0;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+            }
+        }
+        .coupon-name {
+            font-size:22px/20px*1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-top:9px/20px*1rem;
+            color: #fff;
+            margin-top:8px/20px*1rem;
+            padding:0 10px;
+        }
+        .business-name {
+            font-size: 16px/20px*1rem;
+            color: #fff;
+            margin: 6px/20px*1rem 0 5px/20px*1rem;
+            height:25px/20px*1rem;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .coupon-order {
+            overflow: hidden;
+            width: 581px/2/20px*1rem;
+            height: 40px;
+            margin: 0 auto 0;
+            .order-number {
+                width: 351px/2/20px*1rem;
+                height: 35px;
+                border: none;
+                display: block;
+                border-radius: 3px 0 0 3px;
+                -webkit-border-radius: 3px 0 0 3px;
+                -webkit-appearance: none;
+                float: left;
+                padding-left: 10px/20px*1rem;
+            }
+            .btn-coupon {
+                width: 230px/2/20px*1rem;
+                height: 35px;
+                font-size: 18px;
+                text-align: center;
+                color: #fff;
+                margin: 0 auto;
+                background: #cc0030;
+                border-radius: 0 3px 3px 0;
+                -webkit-border-radius: 0 3px 3px 0;
+                line-height: 35px;
+                float: left;
+            }
+            .btn-useCoupon {
+                background: #d8d8d8;
+                display: none;
+            }
+        }
+        .coupon-time {
+            padding: 5px/20px*1rem 10px/20px*1rem 0;
+            font-size: 14px20px*1rem;
+            color: #fff;
+        }
+    }
+    .dfs-detail {
+        .business-logo {
+            margin: 30px auto 5px;
+        }
+        .business-name {
+            margin: 6px;
+        }
+        .coupon-name {
+            width: 100%;
+            overflow: hidden;
+            margin: 0 auto 0;
+            padding: 0 10px;
+            span {
+                margin: 0 auto;
+                display: block;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                background: #cc0030;
+                color: #fff;
+                fonr-size: 25px;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+        }
+        .coupon-time {
+            margin-top: 10px/20px*1rem;
+        }
+    }
+    .coupon-pic-container {
+        margin-top: 5px/20px*1rem;
+        padding: 10px;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        background: #fff;
+        text-align: center;
+        p {
+            font-size: 32px/2/20px*1rem;
+            color: #222;
+            margin-bottom: 5px/20px*1rem;
+        }
+        .coupion-pic {
+            border: 3px solid #fff;
+            width: 80%;
+            margin: 0 auto .16rem;
+            position: relative;
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}
+
+.coupon-code-container {
+    margin-top: 5px/20px*1rem;
+    padding: 0 0 15px/20px*1rem 0;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #fff;
+    margin-bottom: 10px;
+    .code-txt {
+        width: 100%;
+        height: 89px/2;
+        line-height: 89px/2;
+        font-size: 32px/2/20px*1rem;
+        color: #222;
+        span {
+            display: block;
+            margin-left: 15px;
+        }
+    }
+    .coupon-codes-list {
+        width: 100%;
+        overflow: hidden;
+        .coupon-info-num {
+            width: 100%;
+            height: 89px/2;
+            line-height: 89px/2;
+            font-size: 32px/2/20px*1rem;
+            color: #222;
+            position: relative;
+            text-align: center;
+            border-top: 1px solid #e8e8e8;
+            a {
+                color: #222;
+            }
+            .arrow {
+                width: 10px;
+                height: 5px;
+                background: url(../images/public/arrowD.png) no-repeat center;
+                background-size: 100%;
+                position: absolute;
+                top: 50%;
+                right: 28%;
+                transform: translateY(-50%);
+            }
+        }
+        .coupon-info-num.select {
+            span {
+                transform: rotate(-180deg);
+                -webkit-transform: rotate(-180deg);
+            }
+        }
+        .code-con {
+            overflow: hidden;
+            /*height:125px;*/
+            box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 1);
+            -webkit-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 1);
+            -moz-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 1);
+            -ms-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 1);
+            -o-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 1);
+            height: 0;
+            .code-pic {
+                width: 500px/2/20px*1rem;
+                height: 160px/2/20px*1rem;
+                margin: 5px/20px*1rem auto 0;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+            }
+            .tips {
+                color: #222;
+                text-align: center;
+                font-size: 14px;
+                margin-top: 10px/20px*1rem;
+            }
+        }
+    }
+}
+
+.coupon-dianzi {
+    .pos {
+        top: 93%;
+    }
+    .left-round{
+        left: -5px;
+    }
+    .right-round{
+        right:-5px;
+    }
+}
+
+.couponDesc {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    padding-bottom: 20px/20px*1rem;
+    position: relative;
+    .tit {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        border-bottom: 1px solid #e8e8e8;
+        p {
+            font-size: 16px;
+            color: #222;
+            padding-left: 45px/2/20px*1rem;
+        }
+    }
+    dl {
+        width: 100%;
+        min-height: 60px;
+        font-size: 14px;
+        color: #666;
+        overflow: hidden;
+        padding: 10px/20px*1rem 0;
+        border-bottom: 1px solid #e8e8e8;
+        dt {
+            width: 30%;
+            float: left;
+            padding-left: 45px/2/20px*1rem;
+        }
+        dd {
+            width: 60%;
+            float: left;
+        }
+    }
+    dl:last-of-type {
+        border-bottom: none;
+    }
+}
+
+#enlargePic {
+    .tips {
+        padding: 5px 10px 5px 20px;
+        display: block;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 3px 0 3px 0;
+        -webkit-border-radius: 3px 0 3px 0;
+    }
+    .tips:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 9px;
+        height: 8px;
+        background: url(../images/businessDetail/fangdajing.png) no-repeat;
+        background-size: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        left: 6px;
+    }
+}
+
+@-webkit-keyframes couponCodeDown {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 125px/20px*1rem;
+    }
+}
+
+@keyframes couponCodeDown {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 125px/20px*1rem;
+    }
+}
+
+@-webkit-keyframes couponCodeUp {
+    0% {
+        height: 125px/20px*1rem;
+        box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -webkit-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -moz-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -ms-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -o-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+    }
+    10% {
+        box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -webkit-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -moz-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -ms-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -o-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+    }
+    100% {
+        height: 0
+    }
+}
+
+@keyframes couponCodeUp {
+    0% {
+        height: 125px/20px*1rem;
+        box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -webkit-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -moz-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -ms-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -o-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+    }
+    10% {
+        box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -webkit-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -moz-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -ms-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+        -o-box-shadow: 0px 1px 0px 0px rgba(232, 232, 232, 0);
+    }
+    100% {
+        height: 0
+    }
+}
+
+@-webkit-keyframes couponCodeDownO {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 125px/20px*1rem;
+    }
+}
+
+@keyframes couponCodeDownO {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 125px/20px*1rem;
+    }
+}
+
+@-webkit-keyframes couponCodeUpO {
+    0% {
+        height: 125px/20px*1rem;
+    }
+    100% {
+        height: 0
+    }
+}
+
+@keyframes couponCodeUpO {
+    0% {
+        height: 125px/rex;
+    }
+    100% {
+        height: 0
+    }
+}
+
+.coupon-code-down {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: couponCodeDown;
+    animation-name: couponCodeDown
+}
+
+.coupon-code-up {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: couponCodeUp;
+    animation-name: couponCodeUp
+}

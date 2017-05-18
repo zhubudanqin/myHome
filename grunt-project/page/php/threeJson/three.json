@@ -1,0 +1,19 @@
+{
+    "success":true,
+    "msg":"",
+    "errorCode":0,
+    "data":{
+        "merchant_id":"10010",
+        "merchant_name":"The Mall Group(3 department stores)",
+        "pmt_code":"161207100147",
+        "pmt_main_title":"“优计划”电子现金券",
+        "pmt_sub_title":"（10%off优惠）",
+        "pmt_rule":"1、 限非泰国护照的客人使用。在结账时，请同时出示护照和e-Tourist Card“优计划”电子现金券。<br /> 2、 此电子现金券只适用于购买正价商品，不适用于购买礼券、电话卡、烟酒类以及Home Fresh Mart和Gourmet Market中的商品。<br /> 3、 必须使用银联卡（卡号以62开头）付款，方可享有此优惠。<br /> 4、 e-Tourist Card“优计划”电子现金券可重复使用。<br /> 5、 须于付款前声明使用且主动出示此电子现金券。<br /> 6、 电子现金券不可拆分，不能提现。<br /> 7、 如交易发生退款或退货，只退还持卡人实际支付的金额，并不包含电子现金券金额。<br />",
+        "pmt_type":"1",
+        "area_type":"2",
+        "logo_img_url":"//unionpayintl.tuniu.cn/images/g/10010.png",
+        "QRcode_img_url":"//unionpayintl.tuniu.cn/g/QRcode?promotion_id=161207100147",
+        "jump_url":"//unionpayintl.tuniu.cn/g/merchantPromotionDetailByPromotionId?promotion_id=161207100147",
+        "valid_time":"2017-03-31"
+    }
+}

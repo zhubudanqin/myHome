@@ -1,0 +1,85 @@
+@blue:#4081D6;
+.content {
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    color: #232323;
+   
+    .map {
+        font-family: "microsoft Yahei";
+        height: 415px;
+        .labpos {
+            position: relative;
+        }
+        .maplabel {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            margin-left: -60px;
+            .text {
+                height: 25px;
+                padding: 0 15px;
+                margin-bottom: 8px;
+                line-height: 25px;
+                color: #fff;
+                background: #4081d6;
+                border-radius: 3px;
+                font-weight: bolder;
+            }
+            .mapIcon {
+                width: 22px;
+                height: 28px;
+                background: url('../images/map/position.png') no-repeat;
+                margin: 0 auto;
+            }
+        }
+    }
+    .mapSet {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 285px;
+        height: 368px;
+        background: #f5f5f5;
+        .industryinfo {
+            //height: 20px;
+            background: #fff;
+            padding: 0 22px 0;
+            a {
+                float: left;
+                //height: 20px;
+                padding: 0 15px;
+                //border-bottom: 2px solid #f5f5f5;
+                font-size: 14px;
+                line-height: 40px;
+                color: #4e4e4e;
+            }
+            a.on,
+            a:hover {
+                color: @blue;
+                border-color: @blue;
+                background: #f5f5f5;
+            }
+        }
+        .surroundinfobox {
+            padding: 15px 0 10px 30px;
+            height: 261px;
+            font-size: 14px;
+            #surroundinfo {
+                height: 261px;
+                overflow-y: scroll;
+                li {
+                    margin-bottom: 15px;
+                    p {
+                        padding-left: 25px;
+                        word-break: break-all;
+                    }
+                    .add {
+                        color: @blue;
+                        background: url("../images/map/dingwei.png") no-repeat scroll 0 4px;
+                    }
+                }
+            }
+        }
+    }
+}
